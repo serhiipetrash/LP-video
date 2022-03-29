@@ -35,7 +35,9 @@
               </svg>
             </a>
             <ul class="p-2 bg-base-100">
-              <li><a>Логін</a></li>
+              <li>
+                <label for="my-modal-3" class="modal-button">Логін</label>
+              </li>
               <li><a>Реєстрація</a></li>
             </ul>
           </li>
@@ -43,7 +45,55 @@
       </div>
     </div>
 
-    <!-- end navbar -->
+    <!-- modal login -->
+
+    <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+    <div class="modal">
+      <div class="modal-box relative">
+        <label
+          for="my-modal-3"
+          class="btn btn-sm btn-circle absolute right-2 top-2"
+          >✕</label
+        >
+        <!-- Login form -->
+        <div class="card w-full max-w-sm shadow-2xl bg-base-100 mx-auto">
+          <div class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Email</span>
+              </label>
+              <input
+                type="text"
+                placeholder="email"
+                class="input input-bordered"
+              />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Password</span>
+              </label>
+              <input
+                type="text"
+                placeholder="password"
+                class="input input-bordered"
+              />
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover"
+                  >Forgot password?</a
+                >
+              </label>
+            </div>
+            <div class="form-control modal-action mt-6">
+              <a href="#" class="btn">login</a>
+            </div>
+          </div>
+        </div>
+        <!-- end Login form -->
+      </div>
+    </div>
+    <!-- end modal login -->
+
+    <!-- end navbar section -->
 
     <!-- Hero section -->
     <div
