@@ -1,2 +1,4 @@
 # LP-video
-## initial git page
+
+##Development: npm run dev
+##Build: npm run build
