@@ -189,7 +189,7 @@
     <!-- end Hero section -->
 
     <!-- Benefits 1-->
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero md:min-h-screen bg-base-200">
       <div class="hero-content flex-col lg:flex-row">
         <img
           src="/public/img/camera-1.png"
@@ -207,11 +207,11 @@
     <!-- end Benefits 1-->
 
     <!-- Benefits 2-->
-    <div class="hero min-h-screen bg-base-200">
+    <div class="hero md:min-h-screen bg-base-200">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <iframe
           class="rounded-lg shadow-2xl"
-          width="560"
+          width="400"
           height="315"
           src="https://www.youtube.com/embed/KILq1SNNA9c"
           title="YouTube video player"
@@ -229,7 +229,7 @@
     <!-- end Benefits 2-->
 
     <!-- Pricing -->
-    <section class="bg-base-200 body-font">
+    <section class="bg-base-200 body-font hidden md:block">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1
@@ -363,7 +363,7 @@
 
     <!-- Cabinet -->
     <section>
-      <div class="hero min-h-screen bg-base-200 pt-10">
+      <div class="hero md:min-h-screen bg-base-200 pt-10">
         <div class="hero-content text-center flex-col lg:flex-row">
           <div class="w-full">
             <h1 class="text-4xl font-bold">Особистий кабінет</h1>
@@ -386,8 +386,8 @@
         Розрахунок персональної пропозиції
       </h2>
 
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="container px-5 py-12 md:py-24 mx-auto flex flex-wrap">
+        <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
           <div
             class="h-full w-6 absolute inset-0 flex items-center justify-center"
           >
@@ -551,7 +551,9 @@
         </div>
       </div>
 
-      <div class="container mx-auto text-center text-3xl font-bold pb-16">
+      <div
+        class="container mx-auto text-center text-3xl font-bold sm:pb-8 md:pb-16"
+      >
         <a role="button" class="btn">Розрахунок персональної пропозиції</a>
       </div>
     </section>
@@ -559,11 +561,11 @@
 
     <!-- Hardware section -->
     <section class="text-gray-600 body-font bg-base-200">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 sm:py-6 md:py-24 mx-auto">
         <div class="flex flex-col">
           <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
             <h1
-              class="sm:w-2/5 text-gray-900 font-medium title-font text-5xl mb-2 sm:mb-0"
+              class="sm:w-2/5 text-gray-900 font-medium title-font text-3xl lg:text-5xl mb-2 sm:mb-0"
             >
               Обладнання
             </h1>
